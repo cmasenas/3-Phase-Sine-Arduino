@@ -24,7 +24,7 @@ const float refclk=122.549  ;     //  16 MHz/510/256
 // variables used inside interrupt service declared as voilatile
 volatile unsigned long sigma;   // phase accumulator
 volatile unsigned long delta;  // phase increment
-byte phase0, phase1, phase2;
+byte phase0, phase1, phase2 ;
 
 void setup()
 {
